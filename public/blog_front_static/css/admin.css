@@ -1,0 +1,70 @@
+/*
+login form
+ */
+
+html,body{
+    min-height: 100%;
+}
+
+
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: rgb(11,132,208);
+}
+
+.compare-login-form{
+    width: 360px;
+    margin: 7% auto;
+}
+
+
+@media only screen  and (max-width:768px) {
+.compare-login-form{
+    width: 90%;
+    margin-top: 20px;
+}
+
+}
+
+.compare-form-style{
+  background: #fff;
+    padding: 20px;
+    color: #444;
+    border-top: 0;
+    color: #666;
+}
+
+.ml50{
+	margin-left:50px;
+}
+
+.mt15{
+	margin-top:15px;
+}
+
+.compare-row{
+    height: 45px;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    font-size: 16px;
+}
+
+
+.compare-active{
+     border-bottom: 2px solid #848484;
+}
+
+/*
+layer setting
+ */
+
+.layui-layer-dialog {
+    min-width: 260px;
+    top: 25% !important;
+}
